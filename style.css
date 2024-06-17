@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;;
+   margin-top:50px; 
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+
+}
+
+
+.icon{
+    margin:12px ;
+    font-size:20px;
+    
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+
+    
+}
+
+.button1{
+    margin: 10px ;
+    border-radius: 20px;
+    border-color:rgb(253, 0, 0);
+    background-color: black;
+    
+}
+
+.button2{
+    margin: 10px;
+    border-radius: 20px;
+    border-color: #0b140b;
+    background-color: black;
+    
+}
+
+.upperpage{
+    background-image:radial-gradient( blue,green) ;
+    height:40vh;
+}
+
+.icon:hover{
+    color: orange;
+}
+
+
+
+
+
