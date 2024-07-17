@@ -5,40 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
-    <div class="upperpage">
-    <h1>I'm Anjan Pajiyar</h1>
-    <section class="container">
-        
-        <a class="icon media1" href="https://www.linkedin.com/in/anjan-pajiyar-9700191b9/"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a class="icon media2" href="https://github.com/coderanjan"><i class="fa-brands fa-github"></i></a>
-        <a class="icon media3" href="https://x.com/anjan_panjiyar"><i class="fa-brands fa-twitter"></i></a>
-        <a class="icon media4" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fa-solid fa-envelope"></i></a>
-
+    <section class="navigation">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#academic">Academic Journey</a></li>
+            <li><a href="#skill">Skills and Project</a></li>
+            <li><a href="#personal">Personal Interests</a></li>
+            <li><a href="#why">Why Work With Me</a></li>
+            <li><a href="#cont">Contact</a></li>
+        </ul>
     </section>
-
-    <section class="button">
-        <button class="button1">Resume <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg></button>
-
-       <!-- <button class="button2">Contact</button> -->
-
-       <button class="button2">Contact</button>
+    <div class="scrollable">
+        <h1 class="heading">ITS ME ANJAN PAJIYAR</h1>
+        <section class="about-me" id="about">
+            <h2>About Me </h2>
+            <h3>Hello!I'm Anjan Pajiyar ,currently pursuing my B.Tech in computer Science and Eingineering at Klinga Institite of Technology .I am in my 3rd year,5th Semester ,eager to explore the dynamic world of technology and its endless possibilities</h3>
+        </section>
+        <section class="academy-journey" id="academic">
+            <h2>Academic Journey</h2>
+            <h3>I embarked on my journey into the realm of technology with a passion for problem-solving and innovation.Throughout my academic career,I have delved into courses such as Data Structure and Algorithms that have deepened my understanding of computer science principles and their pratical applications </h3>
+        </section>
+        <section class="skills-project" id="skill">
+            <h2>Skills and Project</h2>
+            <h3>I have honed my skills in HTNL,CSS,JAVASCRIPT,JAVA,GIT/GITHUB and PHP.While I am Proficient  in these technologies I am currently focused on devloping projects that showcase my abilities.I am eager to apply my skills  to pratical applocations that demonstrate both technical proficiency and effective collaboration in team environments</h3>
+        </section>
+        <section class="personal-interest" id="personal">
+            <h2>Personal Interests</h2>
+            <h3>Outside of my academic pursuits,I am passionate about exploring new technologies and staying updated with latest advancements in computer science.Continuous learning keeps me motivated and inspired,driving me to innovate and solve real-world problems</h3>
+        </section>
+        <section class="work-with-me" id="why">
+            <h2>Why Work With Me?</h2>
+            <h3>I am dedicated to delivering high-quality work efficiently.My goal is to earn more money by working remotely,accessing global opportunities and providing exceptional value.I am committed to achieving top-notch results and contributing to success.</h3>
+        </section>
+        <section class="contact" id="cont">
+            <h2>Contact</h2>
+            <p><b>Feel free to reach out to me through any of the following channels:</b></p>
+            <ul>
+                <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" class="link">Email</a></li>
+                <li><a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F" class="link">Linkdin</a></li>
+                <li><a href="https://github.com/coderanjan" class="link">Github</a></li>
+                <li><a href="https://x.com/anjan_panjiyar" class="link">Twitter</a></li>
         
-       
-    </section>
+            </ul>
+            <p><b>Or you can use the contact form below to send me a message directly</b></p>
+            <form action="">
+                <div class="grid-container">
+                    <div class="grid-1">
+                        <label for="first-name" >First Name
+                         <span class="astrik">*</span>
+                        </label>
+                        <br>
+                        <input type="text" name="first-name" required>
+                    </div>
+        
+                    <div class="grid-2">
+                        <label for="last-name">Last Name
+                            <span class="astrik">*</span>
+                        </label>
+                        <br>
+                        <input type="text" name="last-name">
+                    </div>
+        
+                    <div class="grid-3">
+                        <label for="email">E-mail
+                            <span class="astrik">*</span>
+                        </label>
+                        <br>
+                        <input type="email" name="email" required>
+                    </div>
+        
+                    <div class="grid-4">
+                        <label for="phone">Phone
+                            <span class="astrik">*</span>
+                        </label>
+                        <br>
+                        <input type="number" name="phone" required>
+                    </div>
+        
+                    <div class="grid-5">
+                        <label for="message">message
+                            <span class="astrik">*</span>
+                        </label>
+                        <br>
+                        <textarea name="message" id="message" cols="62" rows="10">
+                        </textarea>
+                    </div>
+        
+                </div>
+                <input type="submit" class="submit">
+            </form>
+        </section>
+        
     </div>
-    
-
-    
-  
-
-    
-
 </body>
 </html>

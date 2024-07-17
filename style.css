@@ -1,59 +1,123 @@
-*{
-    margin:0px;
+.heading {
+    text-align:center;
+    color:rgb(3, 94, 174)
 }
 
-h1{
-    text-align: center;
-    font-size: 3rem;;
-   margin-top:50px; 
+.about-me {
+    margin-left:20px;
 }
 
-.container{
-    display:flex;
-    justify-content:center;
-
+.about-me>h2 {
+    color:red;
 }
 
+.about-me>h3 {
+    margin-right: 300px;
+}
 
-.icon{
-    margin:12px ;
-    font-size:20px;
+.academy-journey>h2 {
+    color:red;
+}
+
+.academy-journey{
+    margin-left: 20px;
+}
+
+.academy-journey>h3 {
+    margin-right: 300px;
+}
+
+.skills-project>h2 {
+    color:red
+}
+
+.skills-project {
+    margin-left: 20px;
+}
+
+.skills-project>h3{
+    margin-right: 300px;
+}
+
+.personal-interest>h2{
+    color: red;
+}
+
+.personal-interest {
+    margin-left: 20px;
+}
+
+.personal-interest>h3{
+    margin-right: 300px;
+}
+
+.work-with-me>h2{
+    color: red;
+}
+
+.work-with-me {
+    margin-left: 20px;
+}
+
+.work-with-me>h3{
+    margin-right: 300px;
+}
+
+.link {
+    text-decoration: none;
     
 }
-
-.button{
-    display:flex;
-    justify-content: center;
-
-    
+ul>li{
+    margin-bottom: 10px;
 }
 
-.button1{
-    margin: 10px ;
-    border-radius: 20px;
-    border-color:rgb(253, 0, 0);
+.astrik {
+    color:red;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px 50px 180px;
+    grid-template-columns: 300px 300px;
+}
+
+.submit {
+    margin:10px;
+    padding: 6px;
     background-color: black;
-    
+    color: white;
+
 }
 
-.button2{
-    margin: 10px;
-    border-radius: 20px;
-    border-color: #0b140b;
-    background-color: black;
-    
+.submit {
+    margin-left: 180px;
 }
 
-.upperpage{
-    background-image:radial-gradient( blue,green) ;
-    height:40vh;
+.contact {
+    margin-left: 20px;
 }
 
-.icon:hover{
-    color: orange;
+.contact>h2{
+    color: red;
 }
 
+.navigation>ul {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 
+.navigation>ul>li>a {
+    text-decoration: none;
+   
+}
 
+.navigation>ul>li {
+    list-style:  none;
+}
+
+.scrollable {
+    scroll-behavior: smooth;
+}
 
 
